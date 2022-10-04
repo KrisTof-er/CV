@@ -14,7 +14,10 @@
     height: 10px;
     border: 0;
     margin: 0;
-    padding: 0;
+}
+
+.border-line:last-child {
+    margin-top: 100px;
 }
 
 .blue-line {
@@ -22,8 +25,6 @@
     height: 4px;
     border: 0;
     border-radius: 3px;
-    margin: 0;
-    padding: 0;
 }
 
 table {
@@ -68,13 +69,11 @@ td:last-child {
 }
 
 .about-description {
-    padding: 0;
     margin: 0;
 }
 
 .university {
     margin: 0;
-    padding: 0;
     text-decoration: underline;
 }
 
@@ -87,18 +86,18 @@ td:last-child {
     font-size: small;
 }
 
-.skills, .projects {
+.skills {
     font-weight: bold;
     margin: 0;
     padding-left: 17px;
 }
 
+.projects, .area  {
+    margin: 0 17px;
+    font-weight: normal;
+}
+
 .areas {
     margin: 0;
     font-weight: bold;
-}
-
-.area {
-    margin-left: 17px;
-    font-weight: normal;
 }
