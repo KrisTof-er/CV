@@ -56,7 +56,7 @@ td:last-child {
     padding: 5px 0;
 }
 
-.contact-link, .certificate, .project {
+.contact-link, .certificate, .project, .codewar {
     font-weight: bold;
     color: #00BFFF;
 }
@@ -79,6 +79,10 @@ td:last-child {
 
 .speciality, .language, .p-s {
     margin: 0;
+}
+
+.codewar {
+    font-size: 19px;
 }
 
 .duration {
